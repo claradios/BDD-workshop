@@ -3,7 +3,7 @@
 ``` npm install```
 
 ## e2e test
-All functional test are located in ```test/e2e/test``` folder. The e2e test framework is [Cypress](https://www.cypress.io/)
+All functional test are located in ```test/cypress/integrations``` folder. The e2e test framework is [Cypress](https://www.cypress.io/)
 All test are written in Gherkin language and they run with Cucumber
 
 Opening the test runner

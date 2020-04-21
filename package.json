@@ -34,7 +34,7 @@
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true,
-    "commonPath": "test/e2e/test/common-steps",
+    "commonPath": "test/cypress/integration/common-steps",
     "cucumberJson": {
       "generate": true,
       "outputFolder": "test/reports/cucumber",
