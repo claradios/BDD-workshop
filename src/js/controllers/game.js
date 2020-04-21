@@ -1,11 +1,6 @@
-import * as resultText from '../views/resultText.js';
 import computerModule from '../lib/computer.js';
-import {
-  increaseUserScore,
-  increaseComputerScore,
-  endOfGame,
-  scoreAfterDraw,
-} from '../lib/options.js';
+import { endOfGame, increaseComputerScore, increaseUserScore, scoreAfterDraw } from '../lib/options.js';
+import * as resultText from '../views/resultText.js';
 
 const rock = 'rock';
 const paper = 'paper';
@@ -43,8 +38,6 @@ const resultGame = (userChoice, computer) => {
 const game = userChoice => {
   const computer = window.computer.computerChoice();
   const result = resultGame(userChoice, computer);
-  console.log(`USER: ${userChoice}`);
-  console.log(`COMPUTER: ${computer} `);
 
   const resultOptions = {
     win: () => {
