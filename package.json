@@ -1,14 +1,14 @@
 {
   "name": "bdd-rock-paper-scissors",
   "version": "1.0.1",
-  "description": "Play mitical rock-paper-scissors and learn DBB testing",
+  "description": "Play mitical rock-paper-scissors and learn DBB",
   "author": "@claradios and @patriciaSR",
   "directories": {
     "test": "test"
   },
   "scripts": {
     "app:build": "babel src --out-dir dist --delete-dir-on-start --copy-files",
-    "app:serve": "http-server src/ -p 8090",
+    "app:serve": "http-server src/ -p 8080",
     "e2e:open": "cypress open",
     "e2e:run": "cypress run",
     "e2e:report": "node test/utils/e2e-report.js",
