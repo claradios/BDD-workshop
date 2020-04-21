@@ -23,7 +23,7 @@
             "name": "game started",
             "result": {
               "status": "passed",
-              "duration": 1231000000
+              "duration": 7652000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "player selects an option #rock",
             "result": {
               "status": "passed",
-              "duration": 93000000
+              "duration": 1025000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "the result show the player option ROCK",
             "result": {
               "status": "passed",
-              "duration": 34000000
+              "duration": 509000000
             }
           }
         ]
@@ -63,7 +63,7 @@
             "name": "game started",
             "result": {
               "status": "passed",
-              "duration": 152000000
+              "duration": 542000000
             }
           },
           {
@@ -73,7 +73,7 @@
             "name": "player selects an option #paper",
             "result": {
               "status": "passed",
-              "duration": 94000000
+              "duration": 1020000000
             }
           },
           {
@@ -83,7 +83,7 @@
             "name": "the result show the player option PAPER",
             "result": {
               "status": "passed",
-              "duration": 32000000
+              "duration": 523000000
             }
           }
         ]
@@ -103,7 +103,7 @@
             "name": "game started",
             "result": {
               "status": "passed",
-              "duration": 120000000
+              "duration": 581000000
             }
           },
           {
@@ -113,7 +113,7 @@
             "name": "player selects an option #scissors",
             "result": {
               "status": "passed",
-              "duration": 96000000
+              "duration": 1024000000
             }
           },
           {
@@ -123,7 +123,7 @@
             "name": "the result show the player option SCISSORS",
             "result": {
               "status": "passed",
-              "duration": 32000000
+              "duration": 524000000
             }
           }
         ]
@@ -143,27 +143,27 @@
             "name": "game started",
             "result": {
               "status": "passed",
-              "duration": 164000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 21,
-            "name": "computer select an option rock",
-            "result": {
-              "status": "passed",
-              "duration": 8000000
+              "duration": 582000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
+            "line": 21,
+            "name": "computer select an option rock",
+            "result": {
+              "status": "passed",
+              "duration": 83000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
             "line": 22,
             "name": "player selects an option #rock",
             "result": {
               "status": "passed",
-              "duration": 100000000
+              "duration": 1013000000
             }
           },
           {
@@ -173,7 +173,7 @@
             "name": "the result show the options selected ROCK - ROCK",
             "result": {
               "status": "passed",
-              "duration": 33000000
+              "duration": 524000000
             }
           }
         ]
@@ -193,27 +193,27 @@
             "name": "game started",
             "result": {
               "status": "passed",
-              "duration": 120000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 21,
-            "name": "computer select an option paper",
-            "result": {
-              "status": "passed",
-              "duration": 7000000
+              "duration": 602000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
+            "line": 21,
+            "name": "computer select an option paper",
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
             "line": 22,
             "name": "player selects an option #rock",
             "result": {
               "status": "passed",
-              "duration": 92000000
+              "duration": 1027000000
             }
           },
           {
@@ -223,7 +223,7 @@
             "name": "the result show the options selected ROCK - PAPER",
             "result": {
               "status": "passed",
-              "duration": 34000000
+              "duration": 510000000
             }
           }
         ]
@@ -243,27 +243,27 @@
             "name": "game started",
             "result": {
               "status": "passed",
-              "duration": 148000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 21,
-            "name": "computer select an option scissors",
-            "result": {
-              "status": "passed",
-              "duration": 10000000
+              "duration": 588000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
+            "line": 21,
+            "name": "computer select an option scissors",
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
             "line": 22,
             "name": "player selects an option #rock",
             "result": {
               "status": "passed",
-              "duration": 88000000
+              "duration": 1025000000
             }
           },
           {
@@ -273,7 +273,7 @@
             "name": "the result show the options selected ROCK - SCISSORS",
             "result": {
               "status": "passed",
-              "duration": 32000000
+              "duration": 528000000
             }
           }
         ]
@@ -293,7 +293,7 @@
             "name": "game started",
             "result": {
               "status": "passed",
-              "duration": 160000000
+              "duration": 573000000
             }
           },
           {
@@ -303,7 +303,7 @@
             "name": "computer select an option rock",
             "result": {
               "status": "passed",
-              "duration": 8000000
+              "duration": 18000000
             }
           },
           {
@@ -313,7 +313,7 @@
             "name": "player selects an option #rock",
             "result": {
               "status": "passed",
-              "duration": 101000000
+              "duration": 1029000000
             }
           },
           {
@@ -323,7 +323,7 @@
             "name": "the result game is DRAW ~.~",
             "result": {
               "status": "passed",
-              "duration": 37000000
+              "duration": 587000000
             }
           }
         ]
@@ -343,7 +343,7 @@
             "name": "game started",
             "result": {
               "status": "passed",
-              "duration": 96000000
+              "duration": 589000000
             }
           },
           {
@@ -353,7 +353,7 @@
             "name": "computer select an option rock",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 16000000
             }
           },
           {
@@ -363,7 +363,7 @@
             "name": "player selects an option #paper",
             "result": {
               "status": "passed",
-              "duration": 93000000
+              "duration": 1034000000
             }
           },
           {
@@ -373,7 +373,7 @@
             "name": "the result game is YOU WIN :)",
             "result": {
               "status": "passed",
-              "duration": 30000000
+              "duration": 521000000
             }
           }
         ]
@@ -393,7 +393,7 @@
             "name": "game started",
             "result": {
               "status": "passed",
-              "duration": 155000000
+              "duration": 575000000
             }
           },
           {
@@ -403,7 +403,7 @@
             "name": "computer select an option rock",
             "result": {
               "status": "passed",
-              "duration": 8000000
+              "duration": 17000000
             }
           },
           {
@@ -413,7 +413,7 @@
             "name": "player selects an option #scissors",
             "result": {
               "status": "passed",
-              "duration": 97000000
+              "duration": 1016000000
             }
           },
           {
@@ -423,7 +423,7 @@
             "name": "the result game is YOU LOSE :(",
             "result": {
               "status": "passed",
-              "duration": 32000000
+              "duration": 525000000
             }
           }
         ]

@@ -18,8 +18,8 @@ Feature: Select option to play
       | #scissors | SCISSORS      |
 
   Scenario Outline: Show correct option selected by machine
-    And computer select an option <computer-option>
-    When player selects an option <player-option>
+    When computer select an option <computer-option>
+    And player selects an option <player-option>
     Then the result show the options selected <result>
 
     Examples:

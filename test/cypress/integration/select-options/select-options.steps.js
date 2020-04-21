@@ -1,11 +1,11 @@
 import { Given, Then, When } from 'cypress-cucumber-preprocessor/steps';
 
-Given(/^game started$/, () => {
+Given('game started', () => {
   cy.visit('');
   cy.url().should('contains', 'http://localhost:8080');
 });
 
-Given(/^computer select an option (.+)$/, computeroption => {
+When(/^computer select an option (.+)$/, computeroption => {
   cy.window().then((window) => {
     return window.computer.computerChoice = () => computeroption
   });
