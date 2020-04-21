@@ -23,7 +23,7 @@
             "name": "game started",
             "result": {
               "status": "passed",
-              "duration": 1706000000
+              "duration": 816000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "the scoreboard shows 1:1",
             "result": {
               "status": "passed",
-              "duration": 125000000
+              "duration": 84000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "player clicks on -new game-",
             "result": {
               "status": "passed",
-              "duration": 425000000
+              "duration": 98000000
             }
           },
           {
@@ -53,7 +53,7 @@
             "name": "the scoreboard shows 0:0",
             "result": {
               "status": "passed",
-              "duration": 25000000
+              "duration": 11000000
             }
           }
         ]
@@ -73,7 +73,7 @@
             "name": "game started",
             "result": {
               "status": "passed",
-              "duration": 752000000
+              "duration": 96000000
             }
           },
           {
@@ -83,7 +83,7 @@
             "name": "the scoreboard shows 1:1",
             "result": {
               "status": "passed",
-              "duration": 50000000
+              "duration": 32000000
             }
           },
           {
@@ -93,7 +93,7 @@
             "name": "player clicks on -new game-",
             "result": {
               "status": "passed",
-              "duration": 161000000
+              "duration": 94000000
             }
           },
           {
@@ -103,7 +103,7 @@
             "name": "result text show \"Select your choice to start the game\"",
             "result": {
               "status": "passed",
-              "duration": 33000000
+              "duration": 40000000
             }
           }
         ]

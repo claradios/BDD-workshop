@@ -1,8 +1,8 @@
 {
-  "name": "rock-paper-scissors",
+  "name": "bdd-rock-paper-scissors",
   "version": "1.0.1",
-  "description": "Amazing game to play mitical rock-paper-scissors with computer",
-  "author": "amadridlar",
+  "description": "Play mitical rock-paper-scissors and learn DBB testing",
+  "author": "@claradios and @patriciaSR",
   "directories": {
     "test": "test"
   },
@@ -12,11 +12,9 @@
     "e2e:open": "cypress open",
     "e2e:run": "cypress run",
     "e2e:report": "node test/utils/e2e-report.js",
+    "e2e:report:cucumber": "node test/utils/htmlReport.js",
     "lint": "eslint",
-    "pree2e:run": "node test/utils/rmReports",
-    "sonar": "sonar-scanner -D sonar-project.properties",
-    "test": "jest --config=test/jest.config.js",
-    "test:coverage": "jest --config=test/jest.config.js --coverage"
+    "rm:reports": "node test/utils/rmReports"
   },
   "devDependencies": {
     "@babel/cli": "^7.7.4",
@@ -24,7 +22,6 @@
     "@babel/preset-env": "^7.7.4",
     "babel-plugin-rewire": "^1.2.0",
     "babel-preset-minify": "^0.5.1",
-    "chai": "^4.2.0",
     "cucumber-html-reporter": "^5.0.2",
     "cypress": "^3.8.3",
     "cypress-cucumber-preprocessor": "^1.18.0",
@@ -32,11 +29,8 @@
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
     "http-server": "^0.12.0",
-    "jest": "^24.9.0",
     "multiple-cucumber-html-reporter": "^1.13.1",
-    "rimraf": "^3.0.0",
-    "sonar-scanner": "^3.1.0",
-    "sonarqube-scanner": "^2.6.0"
+    "rimraf": "^3.0.0"
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true,

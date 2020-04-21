@@ -1,9 +1,8 @@
 @Library('VDHLib')
-import es.securitasdirect.vdh.PodDefinition
 def podDefinition = new PodDefinition(env.DOCKER_REGISTRY)
 def podLabel = "qa-chrome-test-pod-${UUID.randomUUID().toString()}".take(63)
 
-git_url = 'https://bitbucket.apps.verisure.com/scm/sqat/demo-sq.git'
+git_url = 'https://github.com/claradios/BDD-workshop'
 
 pipeline {
   agent {
