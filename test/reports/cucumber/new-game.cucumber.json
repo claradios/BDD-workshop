@@ -1,0 +1,113 @@
+[
+  {
+    "description": "  As a player\n  I want to reset the game\n  So that I can start a new game",
+    "keyword": "Feature",
+    "name": "Start new game",
+    "line": 1,
+    "id": "start-new-game",
+    "tags": [],
+    "uri": "new-game.feature",
+    "elements": [
+      {
+        "id": "start-new-game;scoreboard-reset-to-0:0",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Scoreboard reset to 0:0",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "game started",
+            "result": {
+              "status": "passed",
+              "duration": 1706000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the scoreboard shows 1:1",
+            "result": {
+              "status": "passed",
+              "duration": 125000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "player clicks on -new game-",
+            "result": {
+              "status": "passed",
+              "duration": 425000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the scoreboard shows 0:0",
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "start-new-game;result-text-show-correct-message-when-new-game-started",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Result text show correct message when new game started",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "game started",
+            "result": {
+              "status": "passed",
+              "duration": 752000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the scoreboard shows 1:1",
+            "result": {
+              "status": "passed",
+              "duration": 50000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "player clicks on -new game-",
+            "result": {
+              "status": "passed",
+              "duration": 161000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "result text show \"Select your choice to start the game\"",
+            "result": {
+              "status": "passed",
+              "duration": 33000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

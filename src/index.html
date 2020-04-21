@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="height=device-height, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" href="assets/favicon.ico" />
+    <title>Rock-Paper-Scissors</title>
+</head>
+
+<body>
+    <header>
+        <h1>Don't try to cheat me!!!</h1>
+    </header>
+    <div class="score">
+        <div class="player-score-label" id="user-label">You</div>
+        <div class="player-score-label" id="machine-label">Great machine</div>
+        <div class="score-board">
+            <span id="user-score">0</span>
+            <span>:</span>
+            <span id="machine-score">0</span>
+        </div>
+        <button class="new-game" id='new-game-button'>New Game</button>
+    </div>
+    <div class="result">
+        <div id="result-text">
+            <p>Select your choice to start the game</p>
+            <p><strong></strong></p>
+        </div>
+    </div>
+    <div class="choices-block">
+        <img class="choice" id="rock" src="assets/rock.png" alt="rock-choice">
+        <img class="choice" id="paper" src="assets/paper.png" alt="paper-choice">
+        <img class="choice" id="scissors" src="assets/scissors.png" alt="scissors-choice">
+    </div>
+</body>
+<script type="module" src="./js/app.js"></script>
+
+</html>

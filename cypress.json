@@ -1,0 +1,12 @@
+{
+  "baseUrl": "http://localhost:8090",
+  "fileServerFolder": "src",
+  "fixturesFolder": "test/e2e/fixtures",
+  "integrationFolder": "test/e2e/test",
+  "pluginsFile": "test/e2e/plugins/index.js",
+  "supportFile": "test/e2e/support/index.js",
+  "testFiles": "**/*.feature",
+  "screenshotsFolder": "test/reports/screenshots",
+  "videosFolder": "test/reports/videos",
+  "videoUploadOnPasses": false
+}

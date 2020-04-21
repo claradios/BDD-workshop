@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Indie+Flower&display=swap');
+:root {
+    --header-bg-color: #EBD704;
+    --body-bg-color: #41575a;
+    --font-family: 'Bree Serif', serif;
+    --score-border-radius: 2vw;
+    --player-score-border-radius: 10vw;
+    --player-score-height: 11vh;
+    --player-score-side: 25vw;
+    --new-game-radius: 6vw;
+    --images-size: 12vw;
+}
+
+* {
+    margin: 0% auto;
+    padding: 0%;
+    box-sizing: content-box;
+}
+
+html, body {
+    background-color: var(--body-bg-color);
+    height: 100%;
+}
+
+header {
+    background-color: var(--header-bg-color);
+    padding: 0.5vh;
+    height: 5vh;
+}
+
+header > h1 {
+    color: var(--body-bg-color);
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 2vw
+}
+
+.score {
+    margin: 2vh 20vw;
+    /*! width: 35%; */
+    border: solid var(--header-bg-color);
+    border-radius: var(--score-border-radius);
+    text-align: center;
+    font-size: 10vw;
+    /*! position: relative; */
+    font-family: 'Indie Flower', cursive;
+    /*! background-color: blue; */
+    height: 30vh;
+}
+
+.player-score-label {
+    background-color: white;
+    padding: 0.2vw 0.2vh;
+    width: 10vw;
+    border-radius: var(--player-score-border-radius);
+    font-family: var(--font-family);
+    position: absolute;
+    font-size: 1.4vw;
+}
+
+#user-label {
+    top: var(--player-score-height);
+    left: var(--player-score-side);
+}
+
+#machine-label {
+    top: var(--player-score-height);
+    right: var(--player-score-side);
+}
+
+.new-game {
+    height: var(--new-game-radius);
+    width: var(--new-game-radius);
+    text-align: center;
+    line-height: 4vw;
+    border: 0.6vw solid black;
+    border-radius: 50%;    
+    background: #a8251d;
+    color: white;
+    font-size: 1.15vw;
+    font-family: 'Indie Flower', cursive;
+    position: absolute;
+    top: 32vh;
+    left: 46.5vw;
+    transition: border 0.3s ease;
+    transition: top, left, line-height 0s;
+}
+
+.new-game:hover {
+    cursor: pointer;
+    border: 0.8vw solid grey;
+    top: 31.8vh;
+    left: 46.3vw;
+    line-height: 4.2vw;
+}
+
+.result {
+    margin: 0% auto;
+    width: auto;
+    padding: 0 0;
+    text-align: center;
+    height: 100px;
+    /*! background-color: green; */
+    height: 25vh;
+}
+
+#result-text {
+    font-family: var(--font-family);
+    font-size: 3vw;
+    color: white;
+    padding: 8vh 0;
+}
+
+.choices-block {
+    text-align: center;
+    height: 40vh;
+    /*! background-color: orange; */
+}
+
+.choice {
+    display: inline-block;
+    border: 1.3vw solid black;
+    border-radius: 50%;
+    height: var(--images-size);
+    width: var(--images-size);
+    margin: 3vw 6vw;
+    transition: background-color, border, 0.3s ease;
+    transition: margin 0s;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background-color: grey;
+    border: 1.5vw solid grey;
+    margin: 2.8vw 5.8vw;
+}
+
+.footer {
+    height: 5%;
+    background-color: black;
+}
+
+
+
