@@ -1,4 +1,4 @@
-# rock-paper-scissors game
+# BDD-Workshop
 
 ### Amazing game to play mitical rock-paper-scissors and learn BDD
 
