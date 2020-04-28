@@ -11,13 +11,11 @@ export const clearScore = () => {
 
 export const increaseUserScore = () => {
   window.userScore += 1;
-  console.log(`RESULT: ${window.userScore}:${window.computerScore}`);
   updateScore();
 };
 
 export const increaseComputerScore = () => {
   window.computerScore += 1;
-  console.log(`RESULT: ${window.userScore}:${window.computerScore}`);
   updateScore();
 };
 

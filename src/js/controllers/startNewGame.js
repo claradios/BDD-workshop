@@ -7,7 +7,6 @@ const startNewGame = () => {
   changeTextFirstRow(window.resultTextInitialMessage);
   changeTextSecondRow('');
   updateScore();
-  console.log('NEW GAME STARTED');
 };
 
 export default startNewGame;
