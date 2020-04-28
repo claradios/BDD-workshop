@@ -30,7 +30,8 @@ Assuming the servers is started in port 8080, just navigate to http://localhost:
 
 ## e2e test
 All functional test are located in ```test/cypress/integrations``` folder. The e2e test framework is [Cypress](https://www.cypress.io/)
-All test are written in Gherkin language and they run with Cucumber
+All test are written in Gherkin language and they run with [Cucumber](https://cucumber.netlify.app/)
+To combine Cypress + Cucumber, we use this library [cypress-cucumber-preprocessor](https://www.npmjs.com/package/cypress-cucumber-preprocessor)
 
 Opening the test runner
 ```npm run e2e:open```
