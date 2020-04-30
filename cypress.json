@@ -7,6 +7,7 @@
   "supportFile": "test/cypress/support/index.js",
   "testFiles": "**/*.feature",
   "screenshotsFolder": "test/reports/screenshots",
+  "video": true,
   "videosFolder": "test/reports/videos",
   "videoUploadOnPasses": false
 }
